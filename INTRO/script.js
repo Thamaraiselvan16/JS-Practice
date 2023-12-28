@@ -92,6 +92,7 @@ console.log(a1 ^ b1);  // 6 (bitwise XOR)
 // console.log("age:",Number(age1))
 // console.log(typeof(age2))
 
+
 // math functions
 
 // 1).Basic Math Operations:
@@ -141,7 +142,7 @@ let tangentResult = Math.tan(angle);
 let arcsineResult = Math.asin(0.7071);  // inverse sine of 0.7071
 
 
-// string mathods
+// String mathods
 
 // let originalString = "   Hello World!   ";
 
@@ -262,3 +263,49 @@ numbers6.forEach(function (element) {
 // 1
 // 2
 // 3
+
+
+//condition statment
+
+//if else
+
+let num=10;
+if (num>0) {
+    console.log("the number is positive");
+}
+else{
+    console.log("the number is either negative or zero");
+}
+
+//if else
+
+let namme="thamarai"
+if (namme=="thamarai"){
+    console.log(`your name is ${namme}`);
+}
+else{
+    console.log(`your unmached name is ${namme}`)
+}
+
+// elif
+
+let num11 = 0;
+
+if (num11 > 0) {
+    console.log("The number is positive.");
+} else if (num11 < 0) {
+    console.log("The number is negative.");
+} else {
+    console.log("The number is zero.");
+}
+
+//ternay operator
+
+a11=10
+b11=20
+max=a11>b11?a11:b11
+console.log(max)
+
+//switch
+
+//objects

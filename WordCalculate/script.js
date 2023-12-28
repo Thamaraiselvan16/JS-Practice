@@ -6,6 +6,7 @@ function countWords(){
         return word.length>0;
     });
     let wordCount=words.length;
-    document.getElementById("result").textContent="Word Coutent: "+wordCount;
-
+    let result=document.getElementById("result")
+    // document.getElementById("result").textContent="Word Cout: "+wordCount;
+    result.innerHTML="Word Count: "+wordCount
 }
